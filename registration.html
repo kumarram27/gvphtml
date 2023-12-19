@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- <style>
+        body {
+            padding: 5px;
+            background-color: blanchedalmond;
+        }
+        .center{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 30px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <form action="register_process.php" method="post">
+        <table class="center" >
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="username" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="confirm_password" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" ></td>
+            </tr>
+            <tr>
+                <td>Mobile Number:</td>
+                <td><input type="text" name="mobile"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="text" name="dob" required></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address"></textarea></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align ="center"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
