@@ -1,2 +1,2 @@
 # gvphtml
-simple html pages
+simple html css javascript project
